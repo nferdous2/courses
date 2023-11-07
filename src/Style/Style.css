@@ -1,0 +1,49 @@
+.footer{
+    background-color: rgba(3, 33, 44, 0.945);
+}
+
+.footer-list{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 15px;
+    opacity: .8;
+
+}
+
+.icons{
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(243, 246, 248);
+    font-size: 30px;
+}
+
+/* header 
+ */
+
+ .custom_nav {
+    text-decoration: none;
+    color: white;
+}
+.custom_nav:hover{
+    background-color: #d3e5f4;
+    color: rgb(25, 15, 15);
+}
+.custom_nav:focus{
+    background-color: #1e88e5;
+    color: rgb(2, 2, 2);
+}
+
+/* dashboard */
+
+.dash-Items:hover{
+    color: rgb(241, 237, 237);
+    background-color: rgba(3, 33, 44, 0.945);
+ }
+ .dash-Items{
+    color: black;
+    font-weight: 500;
+    margin-top: 3%;
+ }

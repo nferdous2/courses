@@ -1,0 +1,225 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to React Native",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React Native development and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://entri.app/blog/wp-content/uploads/2022/03/Untitled581-750x375.png",
+        "duration": "8 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Basic JavaScript knowledge",
+          "Familiarity with React"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to React Native",
+            "content": "Overview of React Native, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First App",
+            "content": "Creating a simple mobile app using React Native components."
+          }
+        ],
+        "students": [
+          {
+            "id": 101,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 102,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      }
+      ,{
+        "id": 2,
+        "name": "Advanced JavaScript Techniques",
+        "instructor": "Jane Smith",
+        "description": "Explore advanced JavaScript concepts and techniques.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/T4PB-f0c-1686918503273.jpg?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces",
+        "duration": "6 weeks",
+        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+        "location": "Online",
+        "prerequisites": ["Intermediate JavaScript knowledge"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Closures and Scope",
+            "content": "Understanding closures and scope in JavaScript."
+          },
+          {
+            "week": 2,
+            "topic": "Asynchronous Programming",
+            "content": "Working with asynchronous code and promises."
+          }
+        ],
+        "students": [
+            {
+                "id": 103,
+                "name": "Alina Das",
+                "email": "alina@example.com"
+              },
+              {
+                "id": 104,
+                "name": "Beauty Alom",
+                "email": "beauty@example.com"
+              }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Web Development with React",
+        "instructor": "Sarah Davis",
+        "description": "Learn web development using React and create modern web applications.",
+        "enrollmentStatus": "Closed",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZNkWthg3tnn2tvW8lNzsrI9tL1YQpLHEkr61e-S93jEwyckYBFYI7nvAsLKm13uFE1HU&usqp=CAU",
+        "duration": "10 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "prerequisites": ["Basic HTML and CSS knowledge", "JavaScript fundamentals"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Getting Started with React",
+            "content": "Introduction to React and its core concepts."
+          },
+          {
+            "week": 2,
+            "topic": "Building Components",
+            "content": "Creating reusable components in React."
+          }
+        ],
+        "students": [
+          {
+            "id": 201,
+            "name": "Charlie Brown",
+            "email": "charlie@example.com"
+          },
+          {
+            "id": 202,
+            "name": "Diana Johnson",
+            "email": "diana@example.com"
+          }
+        ]
+      }
+      ,
+      {
+        "id": 4,
+        "name": "Python Programming Basics",
+        "instructor": "Michael Lee",
+        "description": "Learn the fundamentals of Python programming.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4G5mVDrNBj7JhM1j2gXVx3L79jrh4cfkmaw&usqp=CAU",
+        "duration": "4 weeks",
+        "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+        "location": "In-Person",
+        "prerequisites": ["No prior programming knowledge required"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Python",
+            "content": "Getting started with Python and basic syntax."
+          },
+          {
+            "week": 2,
+            "topic": "Control Structures",
+            "content": "Understanding loops and conditional statements in Python."
+          }
+        ],
+        "students": [
+            {
+                "id": 301,
+                "name": "Boby Das",
+                "email": "boby@example.com"
+              },
+              {
+                "id": 302,
+                "name": "HN Sameer",
+                "email": "hn@example.com"
+              }
+        ]
+      }
+      ,
+      {
+        "id": 5,
+        "name": "Data Science with Python",
+        "instructor": "Emily Adams",
+        "description": "Explore data science and analysis using Python.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://blog.imarticus.org/wp-content/uploads/2021/12/learn-Python-for-data-science.jpg",
+        "duration": "12 weeks",
+        "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+        "location": "Online",
+        "prerequisites": ["Basic Python knowledge", "Statistics fundamentals"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Data Science",
+            "content": "Overview of data science and its applications."
+          },
+          {
+            "week": 2,
+            "topic": "Data Analysis with Pandas",
+            "content": "Data manipulation and analysis using Pandas library."
+          }
+                ],
+        "students": [
+            {
+                "id": 303,
+                "name": "A Hasan",
+                "email": "ahasan@example.com"
+              },
+              {
+                "id": 304,
+                "name": "Bill Doe",
+                "email": "bill@example.com"
+              }
+        ]
+      }
+      ,
+      {
+        "id": 6,
+        "name": "Machine Learning Fundamentals",
+        "instructor": "Alex Turner",
+        "description": "Get started with the basics of machine learning.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*Z-t6x1_F9pokA62V.jpg",
+        "duration": "8 weeks",
+        "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+        "location": "Online",
+        "prerequisites": ["Python programming knowledge", "Basic math skills"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Machine Learning",
+            "content": "Overview of machine learning concepts and applications."
+          },
+          {
+            "week": 2,
+            "topic": "Supervised Learning",
+            "content": "Understanding supervised learning algorithms."
+          }        ],
+        "students": [
+            {
+                "id": 401,
+                "name": "A.John",
+                "email": "a@example.com"
+              },
+              {
+                "id": 402,
+                "name": "B.Smithi",
+                "email": "b@example.com"
+              }
+        ]
+      }
+      
+      
+]
