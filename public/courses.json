@@ -1,12 +1,14 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Introduction to React Native",
         "instructor": "John Doe",
         "description": "Learn the basics of React Native development and build your first mobile app.",
         "enrollmentStatus": "Open",
         "thumbnail": "https://entri.app/blog/wp-content/uploads/2022/03/Untitled581-750x375.png",
         "duration": "8 weeks",
+        "dueDate": "2023-12-31"  ,
+
         "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
         "location": "Online",
         "prerequisites": [
@@ -39,13 +41,15 @@
         ]
       }
       ,{
-        "id": 2,
+        "id": 1,
         "name": "Advanced JavaScript Techniques",
         "instructor": "Jane Smith",
         "description": "Explore advanced JavaScript concepts and techniques.",
         "enrollmentStatus": "Open",
         "thumbnail": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/T4PB-f0c-1686918503273.jpg?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces",
         "duration": "6 weeks",
+        "dueDate": "2024-1-31"  ,
+
         "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
         "location": "Online",
         "prerequisites": ["Intermediate JavaScript knowledge"],
@@ -75,13 +79,15 @@
         ]
       },
       {
-        "id": 3,
+        "id": 2,
         "name": "Web Development with React",
         "instructor": "Sarah Davis",
         "description": "Learn web development using React and create modern web applications.",
         "enrollmentStatus": "Closed",
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZNkWthg3tnn2tvW8lNzsrI9tL1YQpLHEkr61e-S93jEwyckYBFYI7nvAsLKm13uFE1HU&usqp=CAU",
         "duration": "10 weeks",
+        "dueDate": "2023-12-13"  ,
+
         "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
         "location": "Online",
         "prerequisites": ["Basic HTML and CSS knowledge", "JavaScript fundamentals"],
@@ -112,13 +118,15 @@
       }
       ,
       {
-        "id": 4,
+        "id": 3,
         "name": "Python Programming Basics",
         "instructor": "Michael Lee",
         "description": "Learn the fundamentals of Python programming.",
         "enrollmentStatus": "Open",
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4G5mVDrNBj7JhM1j2gXVx3L79jrh4cfkmaw&usqp=CAU",
         "duration": "4 weeks",
+        "dueDate": "2023-12-23"  ,
+
         "schedule": "Saturdays, 10:00 AM - 12:00 PM",
         "location": "In-Person",
         "prerequisites": ["No prior programming knowledge required"],
@@ -149,13 +157,15 @@
       }
       ,
       {
-        "id": 5,
+        "id": 4,
         "name": "Data Science with Python",
         "instructor": "Emily Adams",
         "description": "Explore data science and analysis using Python.",
         "enrollmentStatus": "Open",
         "thumbnail": "https://blog.imarticus.org/wp-content/uploads/2021/12/learn-Python-for-data-science.jpg",
         "duration": "12 weeks",
+        "dueDate": "2023-12-16"  ,
+
         "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
         "location": "Online",
         "prerequisites": ["Basic Python knowledge", "Statistics fundamentals"],
@@ -186,13 +196,15 @@
       }
       ,
       {
-        "id": 6,
+        "id": 5,
         "name": "Machine Learning Fundamentals",
         "instructor": "Alex Turner",
         "description": "Get started with the basics of machine learning.",
         "enrollmentStatus": "Open",
         "thumbnail": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*Z-t6x1_F9pokA62V.jpg",
         "duration": "8 weeks",
+        "dueDate": "2023-12-18"  ,
+
         "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
         "location": "Online",
         "prerequisites": ["Python programming knowledge", "Basic math skills"],

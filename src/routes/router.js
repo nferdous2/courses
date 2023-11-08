@@ -15,14 +15,19 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home/>
-
+                element: <Home/>,
             },
-         {
-            path:'/details/:id',
-            loader:({params})=>fetch(`courses/${params.id}`),
-            element:<Details/>
-         },
+            {
+                path: '/details/:id',
+                loader: ({ params }) => {
+                    const courseId = params.id 
+                    return fetch('/courses.json')
+                        .then((response) => response.json())
+                        .then((data) => data[courseId]);
+                },
+                element: <Details/>
+            },
+            
          {
             path:'/dashboard',
             element:<Dashboard/>
@@ -30,7 +35,7 @@ const router = createBrowserRouter([
          {
             path:'/studentprofile',
             element:<CourseUpdate/>
-         }
+         },
          
         ]
     }

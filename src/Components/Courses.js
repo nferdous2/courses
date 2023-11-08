@@ -10,9 +10,9 @@ const Courses = () => {
         fetch('courses.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 setService(data);
-                setFilteredCourses(data); // Initialize filtered courses with all courses
+                setFilteredCourses(data);
             });
     }, []);
 
@@ -32,26 +32,31 @@ const Courses = () => {
 
     return (
         <div>
+            <h3 className='fw-bold text-center mt-5 mb-5'>The <span style={{ color: "orange" }}>Courses</span> We <span style={{ color: "orange" }}>Offer</span></h3>
+
             <div className="container">
-                <div className="row mb-3">
-                    <div className="col">
-                        <input
-                            type="text"
-                            className="form-control"
-                            placeholder="Search Courses"
-                            value={searchInput}
-                            onChange={handleSearchInputChange}
-                        />
-                    </div>
-                    <div className="col">
-                        <button
-                            className="btn btn-primary"
-                            onClick={handleSearch}
-                        >
-                            Search
-                        </button>
+                <div className="row justify-content-center mt-5">
+                    <div className="col-md-6">
+                        <div className="input-group mb-3">
+                            <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Search Courses"
+                                value={searchInput}
+                                onChange={handleSearchInputChange}
+                            />
+                            <div className="input-group-append">
+                                <button
+                                    className="btn btn-primary"
+                                    onClick={handleSearch}
+                                >
+                                    Search
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="row row-cols-1 row-cols-md-3 g-4">
 
                     {filteredCourses.map((pd) => (
@@ -67,11 +72,12 @@ const Courses = () => {
                                     <p>{pd.description}</p>
                                     <p><strong>Instructor:</strong> {pd.instructor}</p>
                                     <div className="mt-auto d-flex justify-content-between">
-                                    <Link to={`/details/${pd.id}`} className="btn btn-sm rounded py-2 px-4" style={{ backgroundColor: "orange", color: "aliceblue" }}>
-                                View Detail
-                            </Link>
+                                        <Link to={`/details/${pd.id}`} className="btn btn-sm rounded py-2 px-4" style={{ backgroundColor: "orange", color: "aliceblue" }}>
+                                            View Detail
+                                        </Link>
 
                                     </div>
+
                                 </div>
                             </div>
                         </div>
